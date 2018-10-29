@@ -13,5 +13,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ArrayList<Poem> poems = new ArrayList<>();
+
+        for (int i = 0; i < 1000; i++) {
+            Poem poem = new Poem();
+            poem.author = "Author " +i;
+            poem.title = "Title " +i;
+            poem.content = i + "codsofijdfsojidgfkjdas ";
+            poems.add(poem);
+        }
+
+
     }
 }
