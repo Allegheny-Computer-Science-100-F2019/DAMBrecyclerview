@@ -33,5 +33,7 @@ public class MainActivity extends AppCompatActivity {
         poemsRecyclerAdapter.setPoemArray(poems);
 
 
+        recyclerView.setAdapter(poemsRecyclerAdapter);
+
     }
 }
