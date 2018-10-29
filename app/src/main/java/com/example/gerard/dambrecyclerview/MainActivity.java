@@ -9,14 +9,12 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    static ArrayList<Poem> poems = new ArrayList<>();
+    ArrayList<Poem> poems = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
 
         for (int i = 0; i < 1000; i++) {
             Poem poem = new Poem();
